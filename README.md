@@ -6,6 +6,8 @@
     🌐 Available in:
     <a href="README.zh.md">中文 (Chinese)</a>
   </p>
+
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/firstorderai/authenticator_mcp)](https://archestra.ai/mcp-catalog/firstorderai__authenticator_mcp)
   <a href="https://smithery.ai/server/@firstorderai/authenticator_mcp"><img alt="Smithery Badge" src="https://smithery.ai/badge/@firstorderai/authenticator_mcp"></a>
 </div>
 
