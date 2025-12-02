@@ -29,20 +29,7 @@
 
 > 注意：使用该服务器前，你需要创建一个 Authenticator App 的 **访问令牌**。如何创建访问令牌的说明请见 [此处](#创建访问令牌)。
 
-### macOS / Linux
-
-```json
-{
-  "mcpServers": {
-    "Authenticator App MCP": {
-      "command": "npx",
-      "args": ["-y", "authenticator-mcp", "--access-token=YOUR-KEY"]
-    }
-  }
-}
-```
-
-### Windows
+### For Windows
 
 ```json
 {
@@ -55,11 +42,27 @@
 }
 ```
 
+### For macOS / Linux
+
+```json
+{
+  "mcpServers": {
+    "Authenticator App MCP": {
+      "command": "npx",
+      "args": ["-y", "authenticator-mcp", "--access-token=YOUR-KEY"]
+    }
+  }
+}
+```
+
 或者你也可以在 `env` 字段中设置 `AUTHENTICATOR_ACCESS_TOKEN`。
 
 ## 安装 Authenticator App · 2FA 桌面版
 
-[<img src="https://firstorder.ai/store/msstore.svg" alt="Download on the Microsoft Store" height="50" style="margin-right: 10px">](https://apps.microsoft.com/detail/9n6gl0bvkphn?utm_source=mcp)   [<img src="https://firstorder.ai/store/appstore_mac.svg" alt="Download on the Mac App Store" height="50">](https://apps.apple.com/app/apple-store/id6470149516?pt=126691301&mt=8&platform=mac&utm_source=mcp)   [<img src="https://firstorder.ai/store/download_deb.svg" alt="Download the Ubuntu/Debian .deb" height="50">](https://firstorder.ai/downloads/authenticator.deb)
+[<img src="https://static.firstorder.ai/authenticator/icon_ms_store.png" alt="Download Authenticator App on the Windows Microsoft Store" height="50">](https://apps.microsoft.com/detail/9n6gl0bvkphn?utm_source=mcp)
+[<img src="https://static.firstorder.ai/authenticator/icon_windows_exe.png" alt="Download Authenticator.exe for Windows PC" height="50">](https://static.firstorder.ai/app/authenticator_setup.exe)
+[<img src="https://static.firstorder.ai/authenticator/icon_mac_store.png" alt="Download Authenticator App on the Mac App Store" height="50">](https://apps.apple.com/app/apple-store/id6470149516?pt=126691301&mt=8&platform=mac&utm_source=mcp)
+[<img src="https://static.firstorder.ai/authenticator/icon_ubuntu_deb.png" alt="Download the Ubuntu/Debian .deb" height="50">](https://static.firstorder.ai/app/authenticator.deb)
 
 ## 创建访问令牌
 
@@ -68,3 +71,7 @@
 3. 将 MCP 服务器功能切换为 `开启`，然后生成访问令牌。
 
 请注意，访问令牌**仅显示一次**。请务必立即复制，并将其添加至你的 MCP 客户端配置中。
+
+## 更多信息
+
+### [Firstorder.AI](https://firstorder.ai)
