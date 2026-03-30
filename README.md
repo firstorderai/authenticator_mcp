@@ -65,6 +65,10 @@ The `authenticator-mcp` tool can be configured by adding the following to your c
 
 Or you can set `AUTHENTICATOR_ACCESS_TOKEN` in the `env` field.
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/firstorderai-authenticator-mcp).
+
 ## Install Authenticator App · 2FA Desktop version
 
 [<img src="https://static.firstorder.ai/authenticator/icon_ms_store.png" alt="Download Authenticator App on the Windows Microsoft Store" height="50">](https://apps.microsoft.com/detail/9n6gl0bvkphn?utm_source=mcp)
